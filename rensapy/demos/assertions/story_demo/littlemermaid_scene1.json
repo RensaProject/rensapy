@@ -1,0 +1,91 @@
+[
+  {
+    "l": ["header"],
+    "relation": "has_value",
+    "r": ["Chapter 1"],
+    "with_property":["bold"]
+  },
+  {
+    "l": ["setting"],
+    "relation": "has_value",
+    "r": [{"time":"","place":"ocean","general_place":"EXT."}]
+  },
+  {
+    "l": ["birds"],
+    "relation": "action",
+    "r": ["fly"],
+    "tense":"past",
+    "storypoints": [
+      {"begin": 0, "end": 1}
+    ]
+  },
+  {
+    "l": ["porpoises"],
+    "relation": "action",
+    "r": ["swim"],
+    "with_property":["happy"],
+    "tense":"past",
+    "storypoints": [
+      {"begin": 0, "end": 1}
+    ]
+  },
+  {
+    "l": ["ship"],
+    "relation": "action",
+    "r": ["enter"],
+    "action_object": ["the scene"],
+    "tense":"past",
+    "storypoints": [
+      {"at":1}
+    ]
+  },
+  {
+    "l": ["sailors","prince","Grimsby"],
+    "relation": "location_on",
+    "r": ["ship"],
+    "tense":"past",
+    "storypoints": [
+      {"begin":2, "end":"Infinity"}
+    ]
+  },
+  {
+    "l": ["sailors"],
+    "relation": "action",
+    "r": ["sing"],
+    "tense":"past",
+    "storypoints": [
+      {"at":2}
+    ],
+    "discourse": "I'll tell you a tale of the bottomless blue, and it's hey to the starboard, heave ho! Look out, lad, a mermaid be waitin' for you in mysterious fathoms below..."
+  },
+  {
+    "l": ["prince"],
+    "relation": "action",
+    "r": ["say"],
+    "tense":"past",
+    "storypoints": [
+      {"at":3}
+    ],
+    "discourse": "Isn't this great?  The salty sea air, the wind blowing in your face...a perfect day to be at sea!"
+  },
+  {
+    "l": ["Grimsby"],
+    "relation": "action",
+    "r": ["vomit"],
+    "location_over":["the side of the ship"],
+    "tense":"past",
+    "storypoints": [
+      {"at":3}
+    ]
+  },
+  {
+    "l":["Grimsby"],
+    "relation": "action",
+    "r": ["say"],
+    "tense":"past",
+    "storypoints": [
+      {"at":4}
+    ],
+    "discourse": "Oh yes...delightful..."
+  }
+]

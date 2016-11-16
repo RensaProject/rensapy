@@ -1,0 +1,47 @@
+[
+  {
+    "l": ["little_mermaid"],
+    "relation": "instance_of",
+    "r": ["actor","mermaid","hero"]
+  },
+  {
+    "l": ["little_mermaid"],
+    "relation": "has_name",
+    "r": ["ariel"]
+  },
+  {
+    "l": ["little_mermaid","ursula"],
+    "relation": "has_gender",
+    "r": ["female"]
+  },
+  {
+    "l": ["prince"],
+    "relation": "instance_of",
+    "r": ["actor","hero"]
+  },
+  {
+    "l": ["prince"],
+    "relation": "has_name",
+    "r": ["Eric"]
+  },
+  {
+    "l": ["sailor 1","sailor 2","sailor 3"],
+    "relation": "type_of",
+    "r": ["sailors"]
+  },
+  {
+    "l": ["Grimsby"],
+    "relation": "instance_of",
+    "r": ["sidekick","actor"]
+  },
+  {
+    "l": ["Grimsby"],
+    "relation": "has_gender",
+    "r": ["male"]
+  },
+  {
+    "l": ["Ursula","King Triton","Seahorse Herald"],
+    "relation": "instance_of",
+    "r": ["actor"]
+  }
+]

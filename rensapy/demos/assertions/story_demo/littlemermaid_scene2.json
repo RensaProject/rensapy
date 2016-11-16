@@ -1,0 +1,28 @@
+[
+  {
+    "l": ["setting"],
+    "relation": "has_value",
+    "r": [{"time":"","place":"underwater palace","general_place":"EXT."}]
+  },
+  {
+    "l": ["Seahorse Herald"],
+    "relation": "action",
+    "r": ["say"],
+    "tense":"past",
+    "storypoints": [
+      {"at": 0}
+    ],
+    "discourse":"Ahem...his royal highness, King Triton!"
+  },
+  {
+    "l": ["King Triton"],
+    "relation": "action",
+    "r": ["enter"],
+    "tense":"past",
+    "action_object": ["the scene"],
+    "with_property":["dramatic"],
+    "storypoints": [
+      {"at": 1}
+    ]
+  }
+]

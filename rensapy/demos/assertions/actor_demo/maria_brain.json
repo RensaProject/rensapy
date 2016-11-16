@@ -1,0 +1,7 @@
+[
+  {
+    "l":["pie"],
+    "relation": "has_property",
+    "r":["tasty"]
+  }
+]

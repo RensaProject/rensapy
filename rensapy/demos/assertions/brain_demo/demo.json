@@ -1,0 +1,85 @@
+[
+  {
+      "l":  ["my favorite pie"],
+      "relation":  "is_a",
+      "r":  ["pumpkin pie"]
+  },
+  {
+      "l":  ["strawberry","raspberry","blueberry","apple","blackberry","cherry"],
+      "relation":  "type_of",
+      "r":  ["fruit"],
+      "tag": ["fruit","strawberry","raspberry","blueberry","apple","blackberry","cherry"]
+  },
+  {
+      "l":  ["pecans","walnuts","hazelnuts","almonds"],
+      "relation":  "type_of",
+      "r":  ["nut"]
+  },
+  {
+      "l":  ["mint","basil","lavender"],
+      "relation":  "type_of",
+      "r":  ["herb"]
+  },
+  {
+      "l":  ["fruit","nut"],
+      "relation":  "part_of",
+      "r":  ["pie"]
+  },
+  {
+      "l":  ["knife"],
+      "relation":  "used_for",
+      "r":  ["mince","chop","dice","slice"]
+  },
+  {
+      "l":  ["apples"],
+      "relation":  "has_property",
+      "r":  ["red","tart"],
+      "tag": ["apple"],
+      "tense":"past"
+  },
+  {
+      "l":  ["chef"],
+      "relation":  "action",
+      "r":  ["mince"],
+      "action_object":["onion","garlic"],
+      "grammatical_mood": "imperative"
+  },
+  {
+    "l":["spoon"],
+    "relation":"used_for",
+    "r":[{"l":["spoon"], "relation":"action","r":["scoop"],"action_object":["ice cream"]}],
+    "grammatical_mood":"imperative"
+  },
+  {
+    "l":["chef"],
+    "relation":"action",
+    "r":["bake"],
+    "action_object":["bread"],
+    "condition_until":[{"l":["bread"],"relation":"has_property", "r":["golden brown"]}],
+    "grammatical_mood":"imperative"
+  },
+  {
+    "l":["chef"],
+    "relation":"action",
+    "r":["boil"],
+    "action_object":["egg"],
+    "timespan_for":["three minutes"],
+    "grammatical_mood":"imperative"
+  },
+  {
+    "l":["chef"],
+    "relation":"action",
+    "r":["stir"],
+    "action_object":["caramel"],
+    "condition_while":[{"l":["caramel"],"relation":"action", "r":["cook"]}],
+    "grammatical_mood":"imperative",
+    "prefix":["not"]
+  },
+  {
+    "l":["oven"],
+    "relation":"set_value",
+    "r":[350],
+    "r_unit": "degrees F",
+    "grammatical_mood":"imperative"
+  }
+]

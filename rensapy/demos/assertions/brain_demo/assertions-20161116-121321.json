@@ -1,0 +1,211 @@
+[
+  {
+    "r": [
+      "fruit"
+    ], 
+    "relation": "type_of", 
+    "l": [
+      "strawberry", 
+      "raspberry", 
+      "blueberry", 
+      "apple", 
+      "blackberry", 
+      "cherry"
+    ], 
+    "tag": [
+      "fruit", 
+      "strawberry", 
+      "raspberry", 
+      "blueberry", 
+      "apple", 
+      "blackberry", 
+      "cherry"
+    ]
+  }, 
+  {
+    "r": [
+      "nut"
+    ], 
+    "relation": "type_of", 
+    "l": [
+      "pecans", 
+      "walnuts", 
+      "hazelnuts", 
+      "almonds"
+    ]
+  }, 
+  {
+    "r": [
+      "herb"
+    ], 
+    "relation": "type_of", 
+    "l": [
+      "mint", 
+      "basil", 
+      "lavender"
+    ]
+  }, 
+  {
+    "r": [
+      "pie", 
+      "cake"
+    ], 
+    "relation": "part_of", 
+    "l": [
+      "fruit", 
+      "nut"
+    ]
+  }, 
+  {
+    "r": [
+      "mince", 
+      "chop", 
+      "dice", 
+      "slice"
+    ], 
+    "relation": "used_for", 
+    "l": [
+      "knife"
+    ]
+  }, 
+  {
+    "tense": "past", 
+    "r": [
+      "red", 
+      "tart"
+    ], 
+    "relation": "has_property", 
+    "l": [
+      "apples"
+    ], 
+    "tag": [
+      "apple"
+    ]
+  }, 
+  {
+    "action_object": [
+      "onion", 
+      "garlic"
+    ], 
+    "r": [
+      "mince"
+    ], 
+    "grammatical_mood": "imperative", 
+    "l": [
+      "chef"
+    ], 
+    "relation": "action"
+  }, 
+  {
+    "grammatical_mood": "imperative", 
+    "r": [
+      {
+        "grammatical_mood": "imperative", 
+        "l": [
+          "spoon"
+        ], 
+        "r": [
+          "scoop"
+        ], 
+        "tense": "present participle", 
+        "action_object": [
+          "ice cream"
+        ], 
+        "relation": "action"
+      }
+    ], 
+    "relation": "used_for", 
+    "l": [
+      "spoon"
+    ]
+  }, 
+  {
+    "grammatical_mood": "imperative", 
+    "l": [
+      "chef"
+    ], 
+    "r": [
+      "bake"
+    ], 
+    "relation": "action", 
+    "condition_until": [
+      {
+        "grammatical_mood": "indicative", 
+        "r": [
+          "golden brown"
+        ], 
+        "relation": "has_property", 
+        "l": [
+          "bread"
+        ]
+      }
+    ], 
+    "action_object": [
+      "bread"
+    ]
+  }, 
+  {
+    "timespan_for": [
+      "three minutes"
+    ], 
+    "grammatical_mood": "imperative", 
+    "l": [
+      "chef"
+    ], 
+    "r": [
+      "boil"
+    ], 
+    "relation": "action", 
+    "action_object": [
+      "egg"
+    ]
+  }, 
+  {
+    "grammatical_mood": "imperative", 
+    "l": [
+      "chef"
+    ], 
+    "condition_while": [
+      {
+        "grammatical_mood": "indicative", 
+        "r": [
+          "cook"
+        ], 
+        "relation": "action", 
+        "l": [
+          "caramel"
+        ]
+      }
+    ], 
+    "prefix": [
+      "not"
+    ], 
+    "r": [
+      "stir"
+    ], 
+    "relation": "action", 
+    "action_object": [
+      "caramel"
+    ]
+  }, 
+  {
+    "grammatical_mood": "imperative", 
+    "r": [
+      350
+    ], 
+    "relation": "set_value", 
+    "l": [
+      "oven"
+    ], 
+    "r_unit": "degrees F"
+  }, 
+  {
+    "r": [
+      "salt"
+    ], 
+    "relation": "type_of", 
+    "l": [
+      "Alaea salt"
+    ]
+  }
+]
